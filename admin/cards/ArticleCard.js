@@ -158,7 +158,7 @@ const DateWrapper = styled('div')`
 const DateText = ({ date }) => (
 	<DateWrapper>
 		{new Date(`${date}T12:00:00Z`)
-			.toLocaleDateString('pt-BR')
+			.toLocaleDateString('vi-VN')
 			.replace(/\//g, ' /\u202F')}
 	</DateWrapper>
 )
