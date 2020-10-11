@@ -18,7 +18,7 @@ slug:
   encoding: 'ascii'
   clean_accents: true
 
-display_url: https://harumu-frontend.netlify.app
+display_url: https://harumu.com
 
 media_library:
   name: uploadcare
