@@ -4,9 +4,9 @@ backend:
   name: git-gateway
   branch: master
   squash_merges: true
-  site_domain: harumu-backend.netlify.com
-  identity_url: https://harumu-backend.netlify.com/.netlify/identity
-  gateway_url: https://harumu-backend.netlify.com/.netlify/git/github
+  site_domain: harumu-backend.netlify.app
+  identity_url: https://harumu-backend.netlify.app/.netlify/identity
+  gateway_url: https://harumu-backend.netlify.app/.netlify/git/github
   commit_messages:
     create: '{{collection}}:sparkles: {{slug}}'
     update: '{{collection}}:pencil2: {{slug}}'
@@ -18,7 +18,7 @@ slug:
   encoding: 'ascii'
   clean_accents: true
 
-display_url: https://campus.fac.unb.br
+display_url: https://harumu-frontend.netlify.app
 
 media_library:
   name: uploadcare
