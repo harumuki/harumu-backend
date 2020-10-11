@@ -42,8 +42,8 @@ collection_types:
     editor:
       preview: true
     fields:
-      - { label: 'Título', name: title, widget: string, required: true }
-      - { label: 'Foto de Capa', name: cover, widget: string, required: false }
+      - { label: 'Tiêu đề bài', name: title, widget: string, required: true }
+      - { label: 'Ảnh bìa', name: cover, widget: string, required: false }
       - {
           label: 'Data de publicação',
           name: date,
@@ -58,7 +58,7 @@ collection_types:
           required: false,
         }
       - {
-          label: 'Autores',
+          label: 'Chủ bài',
           name: authors,
           widget: author,
           multiple: true,
@@ -96,7 +96,7 @@ collection_types:
       preview: false
     fields:
       - {
-          label: 'Nome da Editoria',
+          label: 'Tên của bài viết',
           name: title,
           widget: string,
           required: true,
