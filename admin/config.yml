@@ -23,7 +23,7 @@ display_url: https://harumu-frontend.netlify.app
 media_library:
   name: uploadcare
   config:
-    publicKey: 0d4625f6c3c1fdb72ccf
+    publicKey: 8a5876e6c30eb4c63cf0
 
 editor:
   preview: false
