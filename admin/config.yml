@@ -2,6 +2,8 @@ logo_url: https://campus.fac.unb.br/assets/images/logo.png
 
 backend:
   name: git-gateway
+  accept_roles:
+    - admin
   branch: master
   squash_merges: true
   site_domain: harumu-backend.netlify.app
