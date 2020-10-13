@@ -21,9 +21,9 @@ slug:
 display_url: https://harumu.com
 
 media_library:
-  name: uploadcare
+  name: 
   config:
-    publicKey: 8a5876e6c30eb4c63cf0
+    publicKey: 
 
 editor:
   preview: false
